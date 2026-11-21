@@ -9,7 +9,7 @@
 
 .DESCRIPTION
     The script works exclusively READ-ONLY. It changes nothing in Active Directory and nothing on the
-    domain controllers, restarts no services, triggers no replication and transfers no data.
+    domain controllers, restarts no services, triggers no replication and sends no data to third parties or the internet.
     It writes exactly one HTML file (and, on request, CSV files) to the specified output folder.
 
     Requirements: Windows PowerShell 5.1, the "ActiveDirectory" module and an account with administrator rights
@@ -19,7 +19,7 @@
 
     Deutsch:
     Das Skript arbeitet ausschließlich LESEND. Es ändert nichts im Active Directory und nichts an den
-    Domänencontrollern, startet keine Dienste neu, stößt keine Replikation an und überträgt keine Daten.
+    Domänencontrollern, startet keine Dienste neu, stößt keine Replikation an und sendet keine Daten an Dritte oder ins Internet.
     Es schreibt genau eine HTML-Datei (und auf Wunsch CSV-Dateien) in den angegebenen Ausgabeordner.
 
     Voraussetzungen: Windows PowerShell 5.1, das Modul "ActiveDirectory" und ein Konto mit Administratorrechten
